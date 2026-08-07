@@ -1,22 +1,16 @@
 import { useParams } from "react-router-dom";
 import { payments } from "../data/payment";
-
+import Navbar from "../components/Navbar";
 import InvoiceCard from "../components/InvoiceCard";
 import PaymentCard from "../components/PaymentCard";
 import StatusBadge from "../components/StatusBadge";
 import WhatsAppButton from "../components/WhatsAppButton";
 import Footer from "../components/Footer";
 
-
 const Homepage = () => {
-
   const { invoice } = useParams();
 
-
-  const data = payments.find(
-    item => item.invoice === invoice
-  );
-
+  const data = payments.find((item) => item.invoice === invoice);
 
   if (!data) {
     return (
@@ -26,13 +20,11 @@ const Homepage = () => {
     );
   }
 
-
   return (
     <main className="min-h-screen bg-zinc-100">
-
+      <Navbar />
       <div className="mx-auto max-w-3xl px-4 pb-10">
-
-        <InvoiceCard data={data}/>
+        <InvoiceCard data={data} />
 
         <PaymentCard />
 
@@ -41,12 +33,9 @@ const Homepage = () => {
         <WhatsAppButton />
 
         <Footer />
-
       </div>
-
     </main>
   );
 };
-
 
 export default Homepage;
