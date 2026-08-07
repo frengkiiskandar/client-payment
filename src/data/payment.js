@@ -21,12 +21,12 @@ export const payments = [
 
   {
     invoice: "INV-20260807-003-TriWidodo",
-    client: "Client Ketiga",
-    project: "Landing Page",
+    client: "Tri Widodo",
+    project: "Konseling Mahasiswa - Certainty Factor",
     date: "07 Agustus 2026",
-    amount: 1500000,
+    amount: 2400000,
     type: "Website",
-    status: 'paid'
+    status: 'pending'
   },
 ];
 
