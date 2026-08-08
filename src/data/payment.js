@@ -4,7 +4,7 @@ export const payments = [
     client: "Enggal Setiawan",
     project: "Skripsi Manajemen",
     date: "07 Agustus 2026",
-    amount: 2500000,
+    amount: 2700000,
     type: "Skripsi",
     status: 'pending'
   },
