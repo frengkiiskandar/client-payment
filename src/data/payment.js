@@ -6,7 +6,8 @@ export const payments = [
     date: "07 Agustus 2026",
     amount: 2700000,
     type: "Skripsi",
-    status: 'pending'
+    status: 'pending',
+    dibayar: 1300000
   },
 
   {
@@ -16,7 +17,8 @@ export const payments = [
     date: "07 Agustus 2026",
     amount: 3000000,
     type: "Web Application",
-    status: 'pending'
+    status: 'pending',
+    dibayar: 0
   },
 
   {
@@ -26,7 +28,8 @@ export const payments = [
     date: "07 Agustus 2026",
     amount: 2400000,
     type: "Website",
-    status: 'pending'
+    status: 'pending',
+    dibayar: 0
   },
 ];
 
