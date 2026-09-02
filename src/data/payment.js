@@ -18,7 +18,7 @@ export const payments = [
     amount: 3000000,
     type: "Web Application",
     status: 'pending',
-    dibayar: 0
+    dibayar: 2500000
   },
 
   {
